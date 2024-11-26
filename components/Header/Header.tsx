@@ -25,6 +25,7 @@ const Header = () => {
 <MenubarTrigger className='bg-none'>Services</MenubarTrigger>  
 <MenubarTrigger className='bg-none'>Pricing</MenubarTrigger>  
 <MenubarTrigger className='bg-none'>Customer</MenubarTrigger>
+<MenubarTrigger className='bg-none'>Contact Us</MenubarTrigger>
 </div>
 
 <div className=' flex items-center'>
