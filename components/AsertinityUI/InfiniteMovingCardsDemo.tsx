@@ -6,11 +6,13 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className="h-[8rem] rounded-md flex flex-col antialiased bg-background  items-center justify-center relative overflow-hidden">
+    <div className="  h-[6rem]  pb-5 rounded-md flex  antialiased bg-background items-center justify-center relative overflow-hidden">
+    
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
         speed="slow"
+      
       />
     </div>
   );
