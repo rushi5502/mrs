@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { LampDemo } from "@/components/AsertinityUI/LampDemo";
 import { InfiniteMovingCardsDemo } from "@/components/AsertinityUI/InfiniteMovingCardsDemo";
+import Service from "@/components/services/Service";
  
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
 <Header/>
     <Banner/>
       <InfiniteMovingCardsDemo/>
- 
+ <Service/>
  
  
 </div>
