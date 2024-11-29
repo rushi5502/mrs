@@ -38,7 +38,7 @@ const Service: FunctionComponent<ServiceProps> = () => {
                 Maintain websites
             </CardTitle>
             <CardContent>
-                asch
+                kahi tari website vagere maintanin karu 
             </CardContent>
         </Card>
       </div>
