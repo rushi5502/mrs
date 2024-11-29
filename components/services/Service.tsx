@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 import { Card, CardContent, CardFooter, CardTitle } from "../ui/card";
 import { Button } from "../ui/button";
 import { IoCodeSlash } from "react-icons/io5";
-
+import { MdDataUsage } from "react-icons/md";
 interface ServiceProps {
     
 }
@@ -25,12 +25,16 @@ const Service: FunctionComponent<ServiceProps> = () => {
         </Card>
 
         <Card className=" w-[250px] h-[250px] p-3 py-8 bg-background/80 z-50 backdrop-blur-md border-cyan-800/20 shadow-md">
-            <CardTitle className=" text-lg font-medium">
-                dATA ANALYST
-            </CardTitle>
+            <CardTitle className=" text-lg font-medium flex flex-col items-center">
+            <MdDataUsage  size={65}/>
+            Data Science
+            </CardTitle> 
             <CardContent>
-                asch
+               
             </CardContent>
+            <CardFooter className=" text-center justify-center items-center flex">
+                <Button>Get Started</Button>
+            </CardFooter>
         </Card>
 
         <Card className=" w-[250px] h-[250px] p-3 py-8 bg-background/80 z-50 backdrop-blur-md border-cyan-800/20">
