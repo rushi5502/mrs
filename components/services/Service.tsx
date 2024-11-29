@@ -26,7 +26,7 @@ const Service: FunctionComponent<ServiceProps> = () => {
 
         <Card className=" w-[250px] h-[250px] p-3 py-8 bg-background/80 z-50 backdrop-blur-md border-cyan-800/20 shadow-md">
             <CardTitle className=" text-lg font-medium">
-                Web Development
+                dATA ANALYST
             </CardTitle>
             <CardContent>
                 asch
@@ -35,7 +35,7 @@ const Service: FunctionComponent<ServiceProps> = () => {
 
         <Card className=" w-[250px] h-[250px] p-3 py-8 bg-background/80 z-50 backdrop-blur-md border-cyan-800/20">
             <CardTitle className=" text-lg font-normal">
-                Web Development
+                Maintain websites
             </CardTitle>
             <CardContent>
                 asch
