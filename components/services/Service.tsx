@@ -2,7 +2,10 @@ import { FunctionComponent } from "react";
 import { Card, CardContent, CardFooter, CardTitle } from "../ui/card";
 import { Button } from "../ui/button";
 import { IoCodeSlash } from "react-icons/io5";
+import { FaTools } from "react-icons/fa";
 import { MdDataUsage } from "react-icons/md";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+
 interface ServiceProps {
     
 }
@@ -15,8 +18,9 @@ const Service: FunctionComponent<ServiceProps> = () => {
       <div className=" absolute top-1/2 left-1/3 z-0   blur-2xl dark:blur-[80px]  dark:opacity-50  opacity-50  bg-gradient-to-r from-cyan-400 to-blue-500 w-56 h-56 rounded-full"/> 
         <div className=" absolute top-[0%] left-[54%] z-0   blur-2xl dark:blur-[80px]  dark:opacity-50   opacity-50   bg-gradient-to-r from-cyan-400 to-blue-500 w-56 h-56 rounded-full"/> 
         <Card className="  flex items-center flex-col justify-center gap-5 w-[250px] h-[250px] p-3 py-8 bg-background/80 z-50 backdrop-blur-md border-cyan-800/20">
-            <CardTitle className=" text-lg font-medium flex items-center">
-            <IoCodeSlash /> Web Development
+            <CardTitle className=" text-lg font-medium flex items-center flex-col">
+        <LiaLaptopCodeSolid size={65}/> 
+            Web Development
             </CardTitle>
             
             <CardFooter className=" text-center justify-center items-center flex">
@@ -37,14 +41,18 @@ const Service: FunctionComponent<ServiceProps> = () => {
             </CardFooter>
         </Card>
 
-        <Card className=" w-[250px] h-[250px] p-3 py-8 bg-background/80 z-50 backdrop-blur-md border-cyan-800/20">
-            <CardTitle className=" text-lg font-normal">
+        <Card className="  flex items-center flex-col justify-center gap-5 w-[250px] h-[250px] p-3 py-8 bg-background/80 z-50 backdrop-blur-md border-cyan-800/20">
+            <CardTitle className=" text-lg font-normal flex flex-col items-center justify-center gap-3">
+            <FaTools size={53} />
                 Maintain websites
             </CardTitle>
-            <CardContent>
-
-            </CardContent>
-            </Card>
+        
+            <CardFooter className=" text-center justify-center items-center flex">
+                <Button>Get Started</Button>
+            </CardFooter>
+                 
+        
+        </Card>
       </div>
 
     </div>
