@@ -3,6 +3,8 @@ import { Card, CardContent, CardFooter, CardTitle } from "../ui/card";
 import { Button } from "../ui/button";
 import { IoCodeSlash } from "react-icons/io5";
 import { FaTools } from "react-icons/fa";
+import { MdDataUsage } from "react-icons/md";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
 
 interface ServiceProps {
     
