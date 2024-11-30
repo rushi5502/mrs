@@ -5,6 +5,7 @@ import Image from "next/image";
 import { LampDemo } from "@/components/AsertinityUI/LampDemo";
 import { InfiniteMovingCardsDemo } from "@/components/AsertinityUI/InfiniteMovingCardsDemo";
 import Service from "@/components/services/Service";
+import Contact from "@/components/contact";
  
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <Banner/>
       <InfiniteMovingCardsDemo/>
  <Service/>
+ <Contact/>
  
  
 </div>
