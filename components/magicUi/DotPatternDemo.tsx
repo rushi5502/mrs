@@ -1,7 +1,8 @@
 "use client";
 
+import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
-import DotPattern from "../ui/dot-pattern";
+ 
  
 
 export function DotPatternDemo({children}:{children:React.ReactNode}) {

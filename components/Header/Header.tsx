@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <Menubar
       className={`h-14 flex shadow-none w-full items-center justify-center gap-10 z-50 fixed top-0 left-0 transition-colors duration-300 ${
-        isScrolled ? "bg-background/90 backdrop-blur-md" : "bg-transparent"
+        isScrolled ? "bg-background/40 backdrop-blur-md" : "bg-transparent"
       }`}
     >
       <MenubarMenu>

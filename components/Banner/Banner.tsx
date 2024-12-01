@@ -1,8 +1,9 @@
 'use client'
 import React from 'react'
 import { Button } from '../ui/button'
-import { DotPatternDemo } from '../magicUi/DotPatternDemo'
+ 
 import { motion } from "framer-motion";
+import { DotPatternDemo } from '../magicUi/DotPatternDemo';
 const Banner = () => {
   return (
     <div className='  w-full flex items-center justify-center h-[90vh]  '>
