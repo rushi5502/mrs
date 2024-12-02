@@ -2,7 +2,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
  
-import { motion } from "framer-motion";
+import {motion} from "framer-motion"
 import { DotPatternDemo } from '../magicUi/DotPatternDemo';
 const Banner = () => {
   return (
